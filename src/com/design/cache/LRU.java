@@ -1,19 +1,7 @@
 package com.design.cache;
 
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicReference;
-
-class CacheNode {
-    int key;
-    int value;
-    CacheNode(int key, int value) {
-        this.key = key;
-        this.value = value;
-    }
-}
 
 public class LRU {
 
